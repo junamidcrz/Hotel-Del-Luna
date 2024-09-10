@@ -1,0 +1,117 @@
+#box{
+  background-color: black;
+  height: 400px;
+  width: 20%;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: 8px #FFDC73 double;
+  padding: 10px;
+  box-sizing: content-box;
+  box-shadow: 0 4px 8px 0 #AD9748, 0 0px 15px 0 #AD9748;
+  
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+#box h1{
+	text-transform: uppercase;
+	font-weight: 500;
+	
+	color: #FFDC73;
+	margin-top: 14px;
+	font-size:35px;
+	font-family: Corbel;
+	font-stretch: 50;
+	font-weight:bold;
+}
+
+#box input[type = "text"],.box input[type = "Username"]{
+	background-color:black;
+	display: block;
+	margin:auto;
+	text-align: center;
+	font-family:Corbel;
+	font-size:15px;
+	font-weight:bold;
+	border: 2px solid #FFDC73;
+	width: 140px;
+	height: 39px;
+	outline: none;
+	color: #FFDC73;
+	border-radius: 15px;
+	transition: 0.25s;
+}
+
+#box input[type = "text"]:focus,.box input[type = "Password"]:focus{
+	width: 190px;
+	border-color: 2px solid #FFDC73;
+}
+
+#box input[type = "Password"],.box input[type = "Password"]{
+	background-color:black;
+	display: block;
+	margin:auto;
+	text-align: center;
+	font-family:Corbel;
+	font-size:15px;
+	font-weight:bold;
+	border: 2px solid #FFDC73;
+	width: 140px;
+	height: 39px;
+	outline: none;
+	color: #FFDC73;
+	border-radius: 15px;
+	transition: 0.25s;
+}
+
+#box input[type = "Password"]:focus,.box input[type = "Password"]:focus{
+	width: 190px;
+	border-color: 2px solid #FFDC73;
+}
+
+#box input[type = "submit"]{
+	cursor: pointer;
+	height: 39px;
+	width: 120px;
+	border: 2px solid #FFDC73;
+	background-color:black;
+	font-family:Corbel;
+	font-size:15px;
+	font-weight:bold;
+	color: white;
+	border-radius: 15px;
+	
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	outline: none;
+	transition: 0.25s;
+}
+
+#box input[type = "submit"]:hover{
+	background: #FFDC73;
+}
+
+form{
+  color: #FFDC73;
+}
+input{
+  text-align: center;
+}
+hr{
+	border-top: 1px solid #FFDC73;
+}
+
+.footer{
+	margin-top: 550px;
+}
+
+i{
+	font-size:24px; color:gold;
+}
+
+
+
